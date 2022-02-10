@@ -1,0 +1,1 @@
+sudo docker run --name helpdesk-db -p 5440:5432 -e POSTGRES_DB=helpdesk-db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123456 postgres:11
